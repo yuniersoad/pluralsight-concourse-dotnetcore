@@ -20,7 +20,7 @@ namespace unittests {
         [Theory]
         [InlineData(1)]
         [InlineData(3)]
-        [InlineData(9)]
+        [InlineData(8)]
         //[InlineData(20)]
         public void Test2(int value) {
             Assert.Equal("closed", _vc.GetCaseStatus(value));
