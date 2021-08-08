@@ -15,9 +15,9 @@ namespace pluralsight_concourse_dotnetcore
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration cfg)
         {
-            Configuration = configuration;
+            Configuration = cfg;
         }
 
         public IConfiguration Configuration { get; }
